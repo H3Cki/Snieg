@@ -58,7 +58,7 @@ In order to download files from Discord you have to create an app on Discord's d
     - Open your snieg folder and then `data/bot.json`
     - Replace <bot_token> with the token you just copied.
     - Make sure you have developer mode enabled on Discord. Go to Settings -> Appearance -> Developer Mode and turn it on.
-    - Right-click on the text channel that you selected for snieg webhook and copi it's ID, replace 000000000000000000 in `data/bot.json` with that ID.
+    - Right-click on the text channel that you selected for snieg webhook and copi it's ID, set "channel_id" in `data/bot.json` to that ID.
     - Invite your bot to your discord.
     - Make sure you haven't permitted your bot from viewing messages in that channel.
     
