@@ -13,7 +13,10 @@ If you load the file without retaining your vehicles you will lose them, since t
 3. When you load the save file it will appear in the exact position as the external save that you loaded (if you load a save from someone who created their save at slot 2, it will be loaded at slot 2 on your computer too).
 
 ## Issues
-Sometimes you'll have to restart your game because save file will refuse to show up for the first time. 
+1. Sometimes you'll have to restart your game because save file will refuse to show up for the first time.
+2. Sometimes a save will randomly refuse to show up even after restarting the game twice, the exact cause of this issue is unknown and it can happen only for some people. In this case the only 2 possible solutions are:
+  - try option 8 (Reload snieg) and 7 (Fix invisible saves), those have some chance of fixing the issue.
+  - load backup save using snieg
 
 ## Important
 1. If you're using Epic Games Launcher:
