@@ -1,4 +1,4 @@
-# ⛄ Snieg
+# ❄️ Snieg
 Snowrunner save sharing with Discord integration.
 
 ## ❔ How does it work?
