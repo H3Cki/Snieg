@@ -75,6 +75,7 @@ In order to download files from Discord you have to create an app on Discord's d
 5. Send save to Discord.
 
 ### ⬇️ Downloading and loading the save
+0. Close Snowrunner.
 1. Open snieg.
 2. Choose option `1. Download last save` if you want do download most recent save on the channel, or `4. Download save` if you want to specifi which one to download.
 3. Follow instructions.
