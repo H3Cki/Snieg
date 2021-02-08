@@ -2,7 +2,7 @@
 Snowrunner save sharing with Discord integration.
 
 ## How does it work?
-Map progress in coop is saved only by the host in Snowrunner. This script allows you to share the progress to other people. 
+Map progress in coop is saved only by the host in Snowrunner. This console script allows you to share the progress to other people. 
 When you load the external save file, it overwrites your current map progress, level and unlocks, keeping your money and trucks. This solution enables you to have different people hosting the coop game without losing the progress. After loading the save a new save slot will appear in your game.
 When you get the hang of it, exporting and loading saves takes less than a minute.
 
@@ -19,7 +19,7 @@ If you load the file without retaining your vehicles you will lose them, since t
     - try option 8 (Reload snieg) and 7 (Fix invisible saves), those have some chance of fixing the issue,
     - load backup save using snieg.
 3. Sometimes snieg will not be able to resolve your Snowrunner save directory path and will ask you to paste it in the console. Default path of that directory is: `C:\Users\<user_name>\Documents\My Games\SnowRunner`
-4. Some users snieg can look weird in the console, with a lot of random characters, it is due to coloring not being supported in their cmd. To disable colors press 0 in main menu.
+4. Some users' snieg can look weird in the console, with a lot of random characters, it is due to coloring not being supported in their cmd. To disable colors press 0 in main menu.
 5. Snieg can timeout when you hold it open for some time due to blocking of the async code. In result of that sending and downloading saves will not be possible, solution -> close and open snieg.
 
 ## Important
@@ -81,3 +81,7 @@ In order to download files from Discord you have to create an app on Discord's d
 
 ### Backups
 Each time you load a save, old one is backed up. You can restore it by chosing option `6. Load backup save`.
+
+
+### Screenshots
+
