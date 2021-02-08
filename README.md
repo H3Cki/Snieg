@@ -15,13 +15,14 @@ If you load the file without retaining your vehicles you will lose them, since t
 ## Issues
 1. Sometimes you'll have to restart your game because save file will refuse to show up for the first time.
 2. Sometimes a save will randomly refuse to show up even after restarting the game twice, the exact cause of this issue is unknown and it can happen only for some people. In this case the only 2 possible solutions are:
-  - try option 8 (Reload snieg) and 7 (Fix invisible saves), those have some chance of fixing the issue.
-  - load backup save using snieg
+    - try option 8 (Reload snieg) and 7 (Fix invisible saves), those have some chance of fixing the issue.
+    - load backup save using snieg
 
 ## Important
 1. If you're using Epic Games Launcher:
 When you load the save using snieg it will detect that files have changed. When you run the game it will ask you to [UPLOAD TO CLOUD] (keep what you have right now) or [DOWNLOAD TO MACHINE] (load files from before you used snieg). Chose first option here.
 2. Recover all your vehicles before exporting and loading saves.
+3. Keep it organized with your friends, if you play separately some of you can miss progress.
 
 ### Requirements
 - Python (3.7.9)
