@@ -37,10 +37,10 @@ In short, you create a webhook for your channel of choice and then all save file
 
 In order to download files from Discord you have to create an app on Discord's developer portal (also described later).
 
-### Requirements
+### 🐍 Requirements
 - Python (3.7.9)
 
-### 🐍 Setup
+### ⚗️ Setup
 1. Install requirements
     `python -m pip install  -r requirements.txt`
    
