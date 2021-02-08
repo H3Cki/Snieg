@@ -79,7 +79,7 @@ In order to download files from Discord you have to create an app on Discord's d
 2. Choose option `1. Download last save` if you want do download most recent save on the channel, or `4. Download save` if you want to specifi which one to download.
 3. Follow instructions.
 
-### Backups
+### 🚑 Backups
 Each time you load a save, old one is backed up. You can restore it by chosing option `6. Load backup save`.
 
 ### Creating executable file
@@ -96,7 +96,7 @@ In order to create an exe file:
     - icon.ico
     - snieg.spec
 
-####### Additional info
+####### + Additional info
 Setting isolate saves to True or False will skip the question about removing your previous saves from current save profile (leaving only one save slot with the save that you're about to load).
 
 ### 📸 Screenshots
