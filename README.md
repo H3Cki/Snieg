@@ -97,4 +97,5 @@ In order to create an exe file:
     - snieg.spec
 
 ### Screenshots
-
+![](screenshots/main_menu.png)
+![](screenshots/example_save.png)
