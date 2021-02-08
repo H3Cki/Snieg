@@ -82,6 +82,19 @@ In order to download files from Discord you have to create an app on Discord's d
 ### Backups
 Each time you load a save, old one is backed up. You can restore it by chosing option `6. Load backup save`.
 
+### Creating executable file
+In order to create an exe file:
+1. Open terminal in snieg directory
+2. Run this command: py -m PyInstaller -c -F -i "icon.ico" snieg.py
+3. After it's done, the executable file will be in "dist" folder. Move it to main directory (next to snieg.py etc)
+4. You can now remove following files and folders:
+    - __pycache__
+    - build
+    - dist
+    - colors.py
+    - snieg.py
+    - icon.ico
+    - snieg.spec
 
 ### Screenshots
 
