@@ -1,0 +1,10 @@
+{
+    "webhooks": [
+        {
+            "name" : "Sniegu",
+            "url" : "<webhook_url>",
+            "avatar_url" : "https://www.pcgamesn.com/wp-content/uploads/2020/04/snowrunner-main-image.jpg",
+            "channel_invite_url" : "<channel_invite_url>"
+        }
+    ]
+}
