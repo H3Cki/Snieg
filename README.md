@@ -19,6 +19,8 @@ If you load the file without retaining your vehicles you will lose them, since t
     - try option 8 (Reload snieg) and 7 (Fix invisible saves), those have some chance of fixing the issue,
     - load backup save using snieg.
 3. Sometimes snieg will not be able to resolve your Snowrunner save directory path and will ask you to paste it in the console. Default path of that directory is: `C:\Users\<user_name>\Documents\My Games\SnowRunner`
+4. Some users snieg can look weird in the console, with a lot of random characters, it is due to coloring not being supported in their cmd. To disable colors press 0 in main menu.
+5. Snieg can timeout when you hold it open for some time due to blocking of the async code. In result of that sending and downloading saves will not be possible, solution -> close and open snieg.
 
 ## Important
 1. If you're using Epic Games Launcher:
@@ -42,7 +44,7 @@ In order to download files from Discord you have to create an app on Discord's d
 1. Install requirements
     `python -m pip install  -r requirements.txt`
    
-### Discord setup
+### Discord integration setup
 1. Create a webhook for the channel.
     - Right click on the text channel
     - Integrations, create new webhook
@@ -59,3 +61,23 @@ In order to download files from Discord you have to create an app on Discord's d
     - Right-click on the text channel that you selected for snieg webhook and copi it's ID, replace 000000000000000000 in `data/bot.json` with that ID.
     - Invite your bot to your discord.
     - Make sure you haven't permitted your bot from viewing messages in that channel.
+    
+
+### Dictionary
+- Save profile - refers to a profile folder in your Snowrunner save directory, where all saves are stored. It is a 32-char long id of your account. Multiple save profiles may appear when you have access to Snowrunner on multiple accounts.
+- Local save file - refers to a single save slot in game.
+
+### Exporting the save
+1. Open snieg.
+2. Chose option `2. Export save`.
+3. Follow the instructions.
+4. When you get an information "Created export file...", a zipped save file has been created in `export` folder.
+5. Send save to Discord.
+
+### Downloading and loading the save
+1. Open snieg.
+2. Choose option `1. Download last save` if you want do download most recent save on the channel, or `4. Download save` if you want to specifi which one to download.
+3. Follow instructions.
+
+### Backups
+Each time you load a save, old one is backed up. You can restore it by chosing option `6. Load backup save`.
