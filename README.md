@@ -11,7 +11,7 @@ When you get the hang of it, exporting and loading saves takes less than a minut
 If export the file without retaining your vehicles everyone who loads the save will get access to them on their local save, since ungaraged vehicles are stored in map files, which are fully copied, not merged.
 If you load the file without retaining your vehicles you will lose them, since they will be overwritten by the map files that you loaded.
 2. Having multiple people play separately using the same save will result is not supported and will result in branching of your save files. You will effectively have to chose which one to load, since you can't merge.
-3. When you load the save file it will appear in the exact position as the external save that you loaded (if you load a save from someone who created their save at slot 2, it will be loaded at slot 2 on your computer too).
+3. When you load the save file it will appear in the exact position as the external save that you loaded (if you load a save from someone who created their save in slot 2, it will be loaded in slot 2 on your computer too).
 
 ## ❗❗ Issues
 1. Sometimes you'll have to restart your game because save file will refuse to show up for the first time.
@@ -21,6 +21,7 @@ If you load the file without retaining your vehicles you will lose them, since t
 3. Sometimes snieg will not be able to resolve your Snowrunner save directory path and will ask you to paste it in the console. Default path of that directory is: `C:\Users\<user_name>\Documents\My Games\SnowRunner`
 4. Some users' snieg can look weird in the console, with a lot of random characters, it is due to coloring not being supported in their cmd. To disable colors press 0 in main menu.
 5. Snieg can timeout when you hold it open for some time due to blocking of the async code. In result of that sending and downloading saves will not be possible, solution -> close and open snieg.
+6. It's advised to start a game in the slot that you're about to overwrite (most likely won't be neccessary).
 
 ## 💭 Important
 1. If you're using Epic Games Launcher:
