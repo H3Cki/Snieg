@@ -2,7 +2,7 @@
 Snowrunner save sharing with Discord integration.
 
 ## ❔ How does it work?
-Map progress in coop is saved only by the host in Snowrunner. This console script allows you to share the progress to other people. 
+Map progress in coop is saved only by the host in Snowrunner. This console script allows you to share the progress with other people. 
 When you load the external save file, it overwrites your current map progress, level and unlocks, keeping your money and trucks. This solution enables you to have different people hosting the coop game without losing the progress. After loading the save a new save slot will appear in your game.
 When you get the hang of it, exporting and loading saves takes less than a minute.
 
