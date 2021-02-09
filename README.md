@@ -97,7 +97,7 @@ In order to create an exe file:
     - icon.ico
     - snieg.spec
 
-####### + Additional info
+### + Additional info
 Setting isolate saves to True or False will skip the question about removing your previous saves from current save profile (leaving only one save slot with the save that you're about to load).
 
 ### 📸 Screenshots
